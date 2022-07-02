@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="app.js"></script>
+    <title>Guess The Number</title>
+  </head>
+  <body>
+    <header>
+      <button class="btn again">Again</button>
+
+      <p class="rule">(Enter any number between 1-20)</p>
+    </header>
+
+    <h1 class="title">Guess The Number!!!</h1>
+
+    <div class="guess-container">
+      <div class="guess">?</div>
+      <hr class="break" />
+    </div>
+
+    <section class="game-input">
+      <input type="number" class="guessed-number" />
+      <button class="btn check">Guess</button>
+    </section>
+
+    <div class="game-params">
+      <div class="chances-left">
+        🧬 Number of Lives : <span class="chances">8</span>
+      </div>
+      <div class="no-chances-left hidden">❌ No Lives Left ❌</div>
+
+      <div class="current-score-div hidden">
+        🎯 Current Score : <span class="current-score">0</span>
+      </div>
+
+      <div class="highscore-div">
+        🥇 Highscore : <span class="highscore">0</span>
+      </div>
+    </div>
+
+    <h1 class="message">Make Your Guess... 🤷‍♂️</h1>
+  </body>
+</html>
